@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Explorations in software development</title>
-    <link>http://blog-software.firebaseapp.com/post/index.xml</link>
+    <link>http://www.tahoemph.blog/post/index.xml</link>
     <description>Recent content in Posts on Explorations in software development</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,14 +10,14 @@
     <webMaster>tahoemph@gmail.com (Michael Hunter)</webMaster>
     <copyright>(c) 2018 Michael Hunter</copyright>
     <lastBuildDate>Mon, 02 Jul 2018 08:51:14 -0700</lastBuildDate>
-    <atom:link href="http://blog-software.firebaseapp.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.tahoemph.blog/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Crostini debugging node with Chrome</title>
-      <link>http://blog-software.firebaseapp.com/post/crostini-debugging-node-with-chrome/</link>
+      <link>http://www.tahoemph.blog/post/crostini-debugging-node-with-chrome/</link>
       <pubDate>Mon, 02 Jul 2018 08:51:14 -0700</pubDate>
       <author>tahoemph@gmail.com (Michael Hunter)</author>
-      <guid>http://blog-software.firebaseapp.com/post/crostini-debugging-node-with-chrome/</guid>
+      <guid>http://www.tahoemph.blog/post/crostini-debugging-node-with-chrome/</guid>
       <description>&lt;p&gt;The integration of the Chrome Dev Tools with Node.js landed in Chrome 57 (it was exprimental before that).
 You have to be using Node.js 6.4+.  This is a wonderful Node.js debugging environment.  On  single
 machine it works with little effort.  But when working on a node app in Crostini it takes a bit of additional
@@ -53,7 +53,7 @@ eth0: flags=4163&amp;lt;UP,BROADCAST,RUNNING,MULTICAST&amp;gt;  mtu 1500
 
 &lt;p&gt;You will need to take that and configure it into chrome.  Go to &amp;ldquo;about:inspect&amp;rdquo; (chrome://inspect/#devices).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://blog-software.firebaseapp.com/images/chrome_inspect.png&#34; alt=&#34;about:inspect&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.tahoemph.blog/images/chrome_inspect.png&#34; alt=&#34;about:inspect&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Choose &amp;ldquo;Configure&amp;rdquo; and enter 100.115.92.204:9229 (or whatever the IP address you discovered above was).  When done
 and you return to the &amp;ldquo;about:inspect&amp;rdquo; tab you will discovered that now you have a &amp;ldquo;Remote Target&amp;rdquo; conigured.&lt;/p&gt;
@@ -74,10 +74,10 @@ choose &amp;ldquo;Open dedicated Dev Tools for Node&amp;rdquo; or &amp;ldquo;ins
     
     <item>
       <title>Crostini upgrade pain</title>
-      <link>http://blog-software.firebaseapp.com/post/crostini-upgrade-pain/</link>
+      <link>http://www.tahoemph.blog/post/crostini-upgrade-pain/</link>
       <pubDate>Mon, 02 Jul 2018 08:42:07 -0700</pubDate>
       <author>tahoemph@gmail.com (Michael Hunter)</author>
-      <guid>http://blog-software.firebaseapp.com/post/crostini-upgrade-pain/</guid>
+      <guid>http://www.tahoemph.blog/post/crostini-upgrade-pain/</guid>
       <description>&lt;p&gt;Not all goes well when you are on the bleeding edge.  When upgrading from
 &amp;ldquo;10798.0.0 (Official Build) dev-channel eve&amp;rdquo; to &amp;ldquo;Version 69.0.3473.0 (Official Build) dev (64-bit)&amp;rdquo;
 I ended up encounting a problem.  Before upgrading I backedup all of my user files in the VM.  This
@@ -87,7 +87,7 @@ ended up saving me.&lt;/p&gt;
 an hour the Chromebook froze and I needed to refresh-reboot it.  It came up but when I tried to start
 the Terminal it spun and nothing happened.&lt;/p&gt;
 
-&lt;p&gt;I ended up in crosh and ultimately removed the vm with &amp;lsquo;vmx destroy termina&amp;rsquo;.  This was after failure
+&lt;p&gt;I ended up in crosh and ultimately removed the vm with &amp;lsquo;vmc destroy termina&amp;rsquo;.  This was after failure
 attempting to start/stop the VM.  Then I could start a blank VM And restore my content losing only what
 I had done in the interim.&lt;/p&gt;
 
@@ -99,10 +99,10 @@ have a better chance of root causing and possibly saving the existing VM.&lt;/p&
     
     <item>
       <title>Crostini dev environment</title>
-      <link>http://blog-software.firebaseapp.com/post/crostini-dev-environment/</link>
+      <link>http://www.tahoemph.blog/post/crostini-dev-environment/</link>
       <pubDate>Sun, 01 Jul 2018 20:18:24 -0700</pubDate>
       <author>tahoemph@gmail.com (Michael Hunter)</author>
-      <guid>http://blog-software.firebaseapp.com/post/crostini-dev-environment/</guid>
+      <guid>http://www.tahoemph.blog/post/crostini-dev-environment/</guid>
       <description>&lt;p&gt;I have become less then enthused with the macOS envrionment due to its odd set of choices
 and constant friction with open source tools.  My first thought was to
 get a linux laptop thus removing the OSS friction.  I also tried an Ubuntu 18 install
@@ -134,10 +134,10 @@ some reasonable capabilities.  Currently I am using &lt;del&gt;&amp;ldquo;10798.
     
     <item>
       <title>Introduction</title>
-      <link>http://blog-software.firebaseapp.com/post/introduction/</link>
+      <link>http://www.tahoemph.blog/post/introduction/</link>
       <pubDate>Sat, 30 Jun 2018 12:52:43 -0700</pubDate>
       <author>tahoemph@gmail.com (Michael Hunter)</author>
-      <guid>http://blog-software.firebaseapp.com/post/introduction/</guid>
+      <guid>http://www.tahoemph.blog/post/introduction/</guid>
       <description>&lt;p&gt;I havn&amp;rsquo;t blogged in a long time.  I&amp;rsquo;ve recently been spending some time
 focusing on making my development environment better.  Expressing some of
 that publically will be helpful to me and might be helpful to others.&lt;/p&gt;
