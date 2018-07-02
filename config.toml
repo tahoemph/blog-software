@@ -1,0 +1,48 @@
+languageCode = "en-us"
+baseurl = "http://blog-software.firebaseapp.com/"
+theme = "hyde-y"
+
+copyright = "(c) 2018 Michael Hunter"
+title = "Explorations in software development"
+
+[author]
+    name = "Michael Hunter"
+    email = "tahoemph@gmail.com"
+
+[params]
+    # You can use markdown here.
+    brand = "Michael Hunter"
+    footline = ""
+
+    # Sidebar position
+    # false, true, "left", "right"
+    sidebar = "left"
+
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Home".
+    home = "home"
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "default"
+
+    # Google Analytics.
+    googleAnalytics = "Your Google Analytics tracking code"
+
+    # Sidebar social links.
+    github = "tahoemph" # Your Github profile ID
+    linkedin = "michael-hunter-8bb1196" # Your LinkedIn profile ID (from public URL)
+    twitter = "tahoemph" # Your Twitter profile ID
+
+    # Sidebar RSS link: will only show up if there is a RSS feed
+    # associated with the current page
+    rss = true
+
+[blackfriday]
+    angledQuotes = false
+    fractions = false
+    hrefTargetBlank = false
+    latexDashes = true
+    plainIdAnchors = true
+    extensions = []
+    extensionmask = []

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://blog-software.firebaseapp.com/post/crostini-debugging-node-with-chrome/</loc>
+    <lastmod>2018-07-02T08:51:14-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog-software.firebaseapp.com/post/crostini-upgrade-pain/</loc>
+    <lastmod>2018-07-02T08:42:07-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog-software.firebaseapp.com/post/crostini-dev-environment/</loc>
+    <lastmod>2018-07-01T20:18:24-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog-software.firebaseapp.com/about/</loc>
+    <lastmod>2018-06-30T18:01:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog-software.firebaseapp.com/post/introduction/</loc>
+    <lastmod>2018-06-30T12:52:43-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog-software.firebaseapp.com/tags/crostini/</loc>
+    <lastmod>2018-07-02T08:42:07-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog-software.firebaseapp.com/</loc>
+    <lastmod>2018-07-02T08:51:14-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog-software.firebaseapp.com/post/</loc>
+    <lastmod>2018-07-02T08:51:14-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog-software.firebaseapp.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

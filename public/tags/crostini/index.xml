@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crostini on Explorations in software development</title>
+    <link>http://blog-software.firebaseapp.com/tags/crostini/index.xml</link>
+    <description>Recent content in Crostini on Explorations in software development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>tahoemph@gmail.com (Michael Hunter)</managingEditor>
+    <webMaster>tahoemph@gmail.com (Michael Hunter)</webMaster>
+    <copyright>(c) 2018 Michael Hunter</copyright>
+    <atom:link href="http://blog-software.firebaseapp.com/tags/crostini/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Crostini upgrade pain</title>
+      <link>http://blog-software.firebaseapp.com/post/crostini-upgrade-pain/</link>
+      <pubDate>Mon, 02 Jul 2018 08:42:07 -0700</pubDate>
+      <author>tahoemph@gmail.com (Michael Hunter)</author>
+      <guid>http://blog-software.firebaseapp.com/post/crostini-upgrade-pain/</guid>
+      <description>&lt;p&gt;Not all goes well when you are on the bleeding edge.  When upgrading from
+&amp;ldquo;10798.0.0 (Official Build) dev-channel eve&amp;rdquo; to &amp;ldquo;Version 69.0.3473.0 (Official Build) dev (64-bit)&amp;rdquo;
+I ended up encounting a problem.  Before upgrading I backedup all of my user files in the VM.  This
+ended up saving me.&lt;/p&gt;
+
+&lt;p&gt;After upgrade I was somewhat surprised that my VM seemed to be whole and viable.  But after less than
+an hour the Chromebook froze and I needed to refresh-reboot it.  It came up but when I tried to start
+the Terminal it spun and nothing happened.&lt;/p&gt;
+
+&lt;p&gt;I ended up in crosh and ultimately removed the vm with &amp;lsquo;vmx destroy termina&amp;rsquo;.  This was after failure
+attempting to start/stop the VM.  Then I could start a blank VM And restore my content losing only what
+I had done in the interim.&lt;/p&gt;
+
+&lt;p&gt;I gathered little data about what the problem was.  This was my first time on crosh.  I&amp;rsquo;ll have to
+develop some muscle around manipulating VMs so that if I run into difficulties in the future I will
+have a better chance of root causing and possibly saving the existing VM.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Crostini dev environment</title>
+      <link>http://blog-software.firebaseapp.com/post/crostini-dev-environment/</link>
+      <pubDate>Sun, 01 Jul 2018 20:18:24 -0700</pubDate>
+      <author>tahoemph@gmail.com (Michael Hunter)</author>
+      <guid>http://blog-software.firebaseapp.com/post/crostini-dev-environment/</guid>
+      <description>&lt;p&gt;I have become less then enthused with the macOS envrionment due to its odd set of choices
+and constant friction with open source tools.  My first thought was to
+get a linux laptop thus removing the OSS friction.  I also tried an Ubuntu 18 install
+on my MacBook but that had various issues and felt like a waste of the hardware.&lt;/p&gt;
+
+&lt;p&gt;I like the idea of Chromebooks.
+Security, long battery life, and a fair bit of stability are important to me for application
+development tasks.  So I took several shots at using a Chromebook and finally
+have found a development environment that works.&lt;/p&gt;
+
+&lt;p&gt;First I tried this using termux following this
+&lt;a href=&#34;https://blog.lessonslearned.org/building-a-more-secure-development-chromebook/&#34;&gt;article&lt;/a&gt;
+using a Samsung Chromebook Plus.  This is an ARM based machine which a really nice IPS
+screen.  Somewhere between the processor maybe not having enough oomph and setting
+up the termux based environment this failed.  It felt clunky and not something that
+would be easy to maintain and update.&lt;/p&gt;
+
+&lt;p&gt;About the time I gave up on termux Google
+&lt;a href=&#34;https://liliputing.com/2018/04/googles-crostini-lets-you-run-gnu-linux-apps-on-chromebooks-without-enabling-developer-mode.html&#34;&gt;announced&lt;/a&gt;
+a VM based dev solution on Chromebooks called Crostini.  Initially it was very limited but it has grown
+some reasonable capabilities.  Currently I am using &lt;del&gt;&amp;ldquo;10798.0.0 (Official Build) dev-channel eve&amp;rdquo;&lt;/del&gt;&amp;ldquo;Version 69.0.3473.0 (Official Build) dev (64-bit)&amp;rdquo;.  With this upgrade tmux now works.  Yea!&lt;/p&gt;
+
+&lt;p&gt;Configuration information is available
+&lt;a href=&#34;https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Future articles will go into issues I encounter and how to resolve them.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
