@@ -19,7 +19,7 @@ After upgrade I was somewhat surprised that my VM seemed to be whole and viable.
 an hour the Chromebook froze and I needed to refresh-reboot it.  It came up but when I tried to start
 the Terminal it spun and nothing happened.
 
-I ended up in crosh and ultimately removed the vm with 'vmx destroy termina'.  This was after failure
+I ended up in crosh and ultimately removed the vm with 'vmc destroy termina'.  This was after failure
 attempting to start/stop the VM.  Then I could start a blank VM And restore my content losing only what
 I had done in the interim.
 
