@@ -1,5 +1,5 @@
 languageCode = "en-us"
-baseurl = "http://www.tahoemph.blog/"
+baseurl = "https://www.tahoemph.blog/"
 theme = "hyde-y"
 
 copyright = "(c) 2018 Michael Hunter"
