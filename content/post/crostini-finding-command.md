@@ -5,7 +5,7 @@ keywords = [""]
 author = "Michael Hunter"
 title = "Crostini finding command"
 tags = ["crostini"]
-description = "Finding CLI commands in Crostini"
+description = "Finding CLI commands in Crostini."
 draft = false
 type = "post"
 +++
