@@ -2,7 +2,7 @@
 date = "2018-07-06T10:30:33-07:00"
 keywords = []
 type = "post"
-title = "Resetting when access to :0 fails."
+title = "Crostini Resetting when access to :0 fails."
 tags = ["crostini"]
 topics = []
 description = "Resetting the VM those times you can no longer start a GUI program."
