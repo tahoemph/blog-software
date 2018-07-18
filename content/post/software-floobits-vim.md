@@ -12,7 +12,7 @@ type = "post"
 
 I wanted to pair program with an associate the other day.  The environment we used
 was [Floobits](https://floobits.com).  Along the way I ended up changing from using
-[Vim](https://www.vim.org) to [Neovim](https?://neovim.io).  This article is a
+[Vim](https://www.vim.org) to [Neovim](https://neovim.io).  This article is a
 recounting of some of the issues I resolved in this process.
 
 Floobits is a nice envirionment for shared coding.  It uses a centralized server to
