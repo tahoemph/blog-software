@@ -6,7 +6,7 @@ keywords = []
 description = "Figuring out how to use Floobits with [n]vim."
 draft = false
 title = "Configuring Floobits with [n]vim"
-author = "author"
+author = "Michael Hunter"
 type = "post"
 +++
 
