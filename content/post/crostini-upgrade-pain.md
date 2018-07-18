@@ -12,7 +12,7 @@ type = "post"
 
 Not all goes well when you are on the bleeding edge.  When upgrading from
 "10798.0.0 (Official Build) dev-channel eve" to "Version 69.0.3473.0 (Official Build) dev (64-bit)"
-I ended up encounting a problem.  Before upgrading I backedup all of my user files in the VM.  This
+I ended up encountering a problem.  Before upgrading I backed up all of my user files in the VM.  This
 ended up saving me.
 
 After upgrade I was somewhat surprised that my VM seemed to be whole and viable.  But after less than

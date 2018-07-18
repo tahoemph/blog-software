@@ -31,7 +31,7 @@ product.  But I never got past the point where it was more friction then value.
 You might note above that I said Floobits supports Neovim.  Neovim is a fork /
 rewrite of Vim to better support asynchronous plugins as one of its priorities.
 There is a plugin for Vim but after some initial trial and error I couldn't get it
-to really work.  So I decided to take the pluge and switch to Neovim.  Last time
+to really work.  So I decided to take the plunge and switch to Neovim.  Last time
 I tried it was too immature but it should be drop in and it had been a year
 or more since my last attempt.
 
@@ -72,4 +72,4 @@ and bits as is normal with many online services of this type.  Only a savings of
 minutes but a really nice touch by Floobits.
 
 At this point everything worked together nicely.  I only tested this between the online
-editor and Neovim.  I havn't tried this between somebody using Neovim and Sublime (for example).
+editor and Neovim.  I haven't tried this between somebody using Neovim and Sublime (for example).

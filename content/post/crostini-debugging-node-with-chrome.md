@@ -10,7 +10,7 @@ draft = false
 type = "post"
 +++
 
-The integration of the Chrome Dev Tools with Node.js landed in Chrome 57 (it was exprimental before that).
+The integration of the Chrome Dev Tools with Node.js landed in Chrome 57 (it was experimental before that).
 You have to be using Node.js 6.4+.  This is a wonderful Node.js debugging environment.  On  single
 machine it works with little effort.  But when working on a node app in Crostini it takes a bit of additional
 effort.  This is because the "machine" you are running the node app on is different from where you want your
@@ -49,7 +49,7 @@ You will need to take that and configure it into chrome.  Go to "about:inspect" 
 ![about:inspect](/images/chrome_inspect.png)
 
 Choose "Configure" and enter 100.115.92.204:9229 (or whatever the IP address you discovered above was).  When done
-and you return to the "about:inspect" tab you will discovered that now you have a "Remote Target" conigured.
+and you return to the "about:inspect" tab you will discovered that now you have a "Remote Target" configured.
 
 When debugging you will need to tell inspect what address to bind to.  By default it will bind to localhost
 which won't allow the remote debugger to attach.  You do work around this by supplying the --inspect-brk flag with

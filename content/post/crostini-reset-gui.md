@@ -11,7 +11,7 @@ draft = false
 +++
 
 Crostini seems to get itself into a spot where it can no longer open the display.
-I havn't tried to root cause this.  But I do know how to reset it.  This is a
+I haven't tried to root cause this.  But I do know how to reset it.  This is a
 pretty big hammer that might be useful when your VM seems to get itself into
 a bad spot.
 
@@ -39,7 +39,7 @@ crosh> vmc start termina
 
 My experience has been mixed.  Sometimes you can stop the VM.  And sometimes it
 seems to have already been stopped.  In this case I had rebooted the Chromebook
-because I'd forgetten starting chrosh directly fails.  This is probably why the
+because I'd forgotten starting chrosh directly fails.  This is probably why the
 termina VM wasn't running.
 Also, in this case I ended up with a prompt that
 isn't normal for crosh.  From what I remember that hasn't happened before.

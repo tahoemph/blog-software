@@ -17,7 +17,7 @@ site generator.
 
 A static site generator is one that takes some form of input for your site
 and generates matching html, css, and javascript.  Note that the static in
-static site generator doesn't imply that your site doesn't use javascript
+static site generator doesn't imply that your site doesn't use JavaScript
 but instead that the content of the site isn't gathered and built into the
 page in the viewers browser.  For a blog that consists of a mostly linear
 stream of content this isn't a restriction.  If I was publishing a site
@@ -28,7 +28,7 @@ I looked at several generators starting with [Jekyll](https://jekyllrb.com/) but
 ended up settling on [Hugo](https://gohugo.io/).  This wasn't due to
 any real feature differences.  I am interested in the go programming
 language which Hugo is implemented in and thought this might an
-opportunity to work some in go.  That said so far I havn't had to
+opportunity to work some in go.  That said so far I haven't had to
 dip into the Hugo source code.
 
 Hugo (and other generators I looked at) all provide a
@@ -49,7 +49,7 @@ I'll track any future Hyde-y development.
 
 Configuration of the theme is done via the config.toml file that
 you can copy from the theme home page almost directly and them modify
-with your personal data.  Sticking to basics intially is working great.
+with your personal data.  Sticking to basics initially is working great.
 Until you have a fair bit of content worrying about polishing the
 chrome of the site seems like a waste of effort.
 
@@ -65,8 +65,8 @@ to set it up.
 
 I have a lot to learn about this set of tools.  I've posted a few
 things that have highlighting but they are all console sessions.  And
-I havn't been entirely happy with them.  I need to zero in on the
-best way to post code and diagrams.  I also havn't explored
+I haven't been entirely happy with them.  I need to zero in on the
+best way to post code and diagrams.  I also haven't explored
 the difference in topics, keywords, and tags in Hugo.  I don't have
 enough content at the moment to care about but those feel like
 they could be important organizational concepts.

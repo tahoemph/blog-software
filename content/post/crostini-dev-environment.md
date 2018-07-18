@@ -10,9 +10,9 @@ date = "2018-07-01T20:18:24-07:00"
 title = "Crostini dev environment"
 +++
 
-I have become less then enthused with the macOS envrionment due to its odd set of choices
+I have become less then enthused with the macOS environment due to its odd set of choices
 and constant friction with open source tools.  My first thought was to
-get a linux laptop thus removing the OSS friction.  I also tried an Ubuntu 18 install
+get a Linux laptop thus removing the OSS friction.  I also tried an Ubuntu 18 install
 on my MacBook but that had various issues and felt like a waste of the hardware.
 
 I like the idea of Chromebooks.
