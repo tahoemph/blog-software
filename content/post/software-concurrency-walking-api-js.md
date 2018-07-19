@@ -76,3 +76,6 @@ know about pages is hard to pull out.  We could hide it under a closure with its
 but it would be hard to express as a simple for loop.  I am not going to spend any more
 time with this code as getting to my ideal would be hard and there are better ways to
 write this in JavaScript these days.  This is here as a baseline for JavaScript.
+
+The next [post](/post/software-concurrency-walking-api-python2/) in this series discusses how
+this code can be nicely built in Python 2.
