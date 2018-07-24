@@ -11,7 +11,7 @@ keywords = []
 +++
 
 In the previous [post](/post/software-concurrency-walking-api-js) in this series
-we motivated our study, build a toy server to run against, and showed how we
+we motivated our study, built a toy server to run against, and showed how we
 might walk our paginated API in pre-ES6 JavaScript.  I didn't like the lack of
 separation of concerns when building that code.  In this post I am going to
 show what I like about sovling the same problem in Python 2.  We can do better then
